@@ -1,14 +1,20 @@
-div {
-    width: 250px;
-    height: 250px;
+.board {
+    width: 900px;
+    height: 900px;
     background-color: antiquewhite;
-    float: left;
+    display: grid;
     font-size: 50px;
     text-align: center;
-    border: 1px solid rgba(0, 0, 0, 0.39);
     color: rgb(253, 52, 96);
+    grid-template-columns: 300px 300px 300px;
 }
 
+.board div {
+    width: 300px;
+    height: 300px;
+    margin: 0;
+    border: 1px solid rgba(0, 0, 0, 0.39);
+}
 .item {
     color: rgb(97, 97, 241);
 }
