@@ -69,58 +69,109 @@ for (let i = 0; i < 9; i++){
         ){
             console.log(masu[0].textContent)
             console.log('〇の勝ち!')
-        }
-
-        if (masu[3].textContent === '〇' &&
-            masu[4].textContent === '〇' &&
-            masu[5].textContent === '〇' 
-        ){
-            console.log('〇の勝ち!')
-        }
-
-        if (masu[6].textContent === '〇' &&
-            masu[7].textContent === '〇' &&
-            masu[8].textContent === '〇' 
-        ){
-            console.log('〇の勝ち!')
-        }
-
-        if (masu[0].textContent === '〇' &&
+        } else if(
             masu[3].textContent === '〇' &&
-            masu[6].textContent === '〇' 
-        ){
-            console.log('〇の勝ち!')
-        }
-
-        if (masu[1].textContent === '〇' &&
             masu[4].textContent === '〇' &&
-            masu[7].textContent === '〇' 
+            masu[5].textContent === '〇'
         ){
+            console.log(masu[0].textContent)
             console.log('〇の勝ち!')
         }
-
-        if (masu[2].textContent === '〇' &&
+        else if(
+            masu[6].textContent === '〇' &&
+            masu[7].textContent === '〇' &&
+            masu[8].textContent === '〇'
+        ){
+            console.log(masu[0].textContent)
+            console.log('〇の勝ち!')
+        }else if(
+            masu[0].textContent === '〇' &&
+            masu[3].textContent === '〇' &&
+            masu[6].textContent === '〇'
+        ){
+            console.log(masu[0].textContent)
+            console.log('〇の勝ち!')
+        }else if(
+            masu[1].textContent === '〇' &&
+            masu[4].textContent === '〇' &&
+            masu[7].textContent === '〇'
+        ){
+            console.log(masu[0].textContent)
+            console.log('〇の勝ち!')
+        }
+        else if(
+            masu[2].textContent === '〇' &&
             masu[5].textContent === '〇' &&
-            masu[8].textContent === '〇' 
+            masu[8].textContent === '〇'
         ){
+            console.log(masu[0].textContent)
+            console.log('〇の勝ち!')
+        }else if(
+            masu[0].textContent === '〇' &&
+            masu[4].textContent === '〇' &&
+            masu[8].textContent === '〇'
+        ){
+            console.log(masu[0].textContent)
+            console.log('〇の勝ち!')
+        }else if(
+            masu[3].textContent === '〇' &&
+            masu[4].textContent === '〇' &&
+            masu[6].textContent === '〇'
+        ){
+            console.log(masu[0].textContent)
             console.log('〇の勝ち!')
         }
 
-        if (masu[0].textContent === '〇' &&
-            masu[4].textContent === '〇' &&
-            masu[8].textContent === '〇' 
-        ){
-            console.log('〇の勝ち!')
-        }
+//         if (masu[3].textContent === '〇' &&
+//             masu[4].textContent === '〇' &&
+//             masu[5].textContent === '〇' 
+//         ){
+//             console.log('〇の勝ち!')
+//         }
 
-        if (masu[2].textContent === '〇' &&
-            masu[4].textContent === '〇' &&
-            masu[6].textContent === '〇' 
-        ){
-            console.log('〇の勝ち!')
-        }
-    });
-}
+//         if (masu[6].textContent === '〇' &&
+//             masu[7].textContent === '〇' &&
+//             masu[8].textContent === '〇' 
+//         ){
+//             console.log('〇の勝ち!')
+//         }
+
+//         if (masu[0].textContent === '〇' &&
+//             masu[3].textContent === '〇' &&
+//             masu[6].textContent === '〇' 
+//         ){
+//             console.log('〇の勝ち!')
+//         }
+
+//         if (masu[1].textContent === '〇' &&
+//             masu[4].textContent === '〇' &&
+//             masu[7].textContent === '〇' 
+//         ){
+//             console.log('〇の勝ち!')
+//         }
+
+//         if (masu[2].textContent === '〇' &&
+//             masu[5].textContent === '〇' &&
+//             masu[8].textContent === '〇' 
+//         ){
+//             console.log('〇の勝ち!')
+//         }
+
+//         if (masu[0].textContent === '〇' &&
+//             masu[4].textContent === '〇' &&
+//             masu[8].textContent === '〇' 
+//         ){
+//             console.log('〇の勝ち!')
+//         }
+
+//         if (masu[2].textContent === '〇' &&
+//             masu[4].textContent === '〇' &&
+//             masu[6].textContent === '〇' 
+//         ){
+//             console.log('〇の勝ち!')
+//         }
+//     });
+// }
 
 // イベントの外は読み込んだ瞬間に実行される
 // if (masu[0].textContent === '〇'){
