@@ -3,9 +3,8 @@
     height: 900px;
     background-color: antiquewhite;
     display: grid;
-    font-size: 50px;
-    text-align: center;
-    color: rgb(253, 52, 96);
+    font-size: 150px;
+    color: rgb(80, 65, 68);
     grid-template-columns: 300px 300px 300px;
 }
 
@@ -14,7 +13,6 @@
     height: 300px;
     margin: 0;
     border: 1px solid rgba(0, 0, 0, 0.39);
-}
-.item {
-    color: rgb(97, 97, 241);
+    text-align: center;
+    line-height: 2.0;
 }
