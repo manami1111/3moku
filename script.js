@@ -19,3 +19,23 @@ A.addEventListener('click', () => {
         A.textContent = '✖'
     }
 });
+
+B.addEventListener('click', () => {
+    count++;
+    // 奇数偶数の判定
+    if (count%2 === 1){
+        B.textContent = '〇'
+    } else {
+        B.textContent = '✖'
+    }
+});
+
+C.addEventListener('click', () => {
+    count++;
+    // 奇数偶数の判定
+    if (count%2 === 1){
+        C.textContent = '〇'
+    } else {
+        C.textContent = '✖'
+    }
+});
